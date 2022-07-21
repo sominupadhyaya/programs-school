@@ -2,4 +2,5 @@
 
 int main(){
     printf("Hello from main2.c");
+    return 0;
 }
