@@ -5,7 +5,7 @@ create table students(
     name varchar(255) not null,
     roll_no int not null,
     email varchar(255)
-)
+);
 
 -- Inserting data in the rows
 
@@ -24,6 +24,6 @@ values(
     'john',
     2,
     'john234@gmail.com'
-)
+);
 -- Selecting the values from table
 select * from students;

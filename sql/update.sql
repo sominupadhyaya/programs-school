@@ -1,6 +1,5 @@
 --updating a record
 
-
 update students set name = 'bomin' 
 where id = 1;
 
