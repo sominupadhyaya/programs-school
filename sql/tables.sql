@@ -25,5 +25,9 @@ values(
     2,
     'john234@gmail.com'
 );
--- Selecting the values from table
+-- Selecting the all records from table
 select * from students;
+
+-- Selecting a record from the table
+select * from students
+where roll_no=2;
