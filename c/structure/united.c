@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "../print_ownership.h"
 
 typedef union
 {
@@ -10,15 +11,12 @@ typedef union
 
 int main(void){
     United_Nations a;
-
     a._country = "NEPAL";
-    printf("%s\n", a._country);
 
-    a._country_rank = 5;
-    printf("%d\n", a._country_rank);
+    printf("\nSize of int: %d\n", sizeof(int));
+    printf("\nSize of char*: %d\n", sizeof(char*));
 
-    //Following code DOESNOT work since union can only store a single variable at a time
-    // printf("%s\n%d", a._country, a._country_rank);
+    printf("\nSize of union: %d\n", sizeof(United_Nations));
 
-    getchar();
+    print_ownership();
 }
