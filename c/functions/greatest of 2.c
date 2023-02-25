@@ -10,6 +10,5 @@ int main() {
     printf("Enter two numbers\n");
     scanf("%d%d", &a, &b);
     printf("%d is greatest\n", greatest(a, b));
-    print_ownership();
     return 0;
 }
