@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../print_ownership.h"
+#include "../header/printOwnership.h"
 
 int name_val(int value){
     value *= 100;
