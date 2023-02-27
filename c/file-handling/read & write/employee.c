@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../../header/printOwnership.h"
 
 
 int main() {
@@ -23,5 +24,7 @@ int main() {
         printf("Salary: %d\n", salary);
     }
     fclose(f);
+
+    print_ownership();
     return 0;
 }

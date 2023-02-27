@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "../print_ownership.h"
+#include "../header/printOwnership.h"
+
 
 struct Students{
     char _name[25];

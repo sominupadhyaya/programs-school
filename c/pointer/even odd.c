@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int main() {
@@ -12,5 +13,7 @@ int main() {
     else {
         printf("Odd\n");
     }
+
+    print_ownership();
     return 0;
 }

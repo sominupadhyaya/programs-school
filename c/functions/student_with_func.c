@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 typedef struct 
 {
@@ -29,5 +30,5 @@ int main(void){
 
     print_student_with_message(&s2, "USER INITIALIZED:");
 
-    getchar();
+    print_ownership();
 }

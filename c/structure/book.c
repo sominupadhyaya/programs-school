@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
+
 
 struct book
 {
@@ -14,5 +16,7 @@ int main() {
     printf("Book Details\n");
     printf("Name: %s\nId: %d\nAuthor: %s\nPrice: %d",
             b.name, b.id, b.author, b.price);
+
+    print_ownership();
     return 0;
 }

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 struct student
@@ -13,5 +14,7 @@ int main() {
     scanf("%s%d%s", s.name, &s.roll, s.addr);
     printf("Student Info\n");
     printf("Name: %s\nRoll No: %d\nAddress: %s\n", s.name, s.roll, s.addr);
+
+    print_ownership();
     return 0;
 }

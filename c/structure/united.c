@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../print_ownership.h"
+#include "../header/printOwnership.h"
+
 
 typedef union
 {

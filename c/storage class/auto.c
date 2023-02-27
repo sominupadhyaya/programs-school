@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int main() {
@@ -7,5 +8,7 @@ int main() {
     printf("Enter a number\n");
     scanf("%d", &x);
     printf("Square is: %d\n", x*x);
+
+    print_ownership();
     return 0;
 }

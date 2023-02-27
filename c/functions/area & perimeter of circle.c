@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
+
 #define PI 3.14
 
 
@@ -16,5 +18,7 @@ int main() {
     scanf("%d", &n);
     printf("Area is: %.2f\n", area(n));
     printf("Perimeter is: %.2f\n", peri(n));
+
+    print_ownership();
     return 0;
 }

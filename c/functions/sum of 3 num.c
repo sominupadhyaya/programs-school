@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 int sum(int, int, int);
 
@@ -8,6 +9,8 @@ int main() {
     scanf("%d%d%d", &a, &b, &c);
     int r = sum(a, b, c);
     printf("Sum is: %d\n", r);
+
+    print_ownership();
     return 0;
 }
 

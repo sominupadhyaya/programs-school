@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "../print_ownership.h"
+#include "../header/printOwnership.h"
+
 
 struct Teacher
 {
@@ -7,7 +8,6 @@ struct Teacher
     char _name[25];
     char _sub[10];
 }t[10];
-
 
 
 int main(void){

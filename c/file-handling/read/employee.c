@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "../../header/printOwnership.h"
 
 int main() {
     FILE *f = fopen("emp.txt","r");
     int salary, age;
-    char name[50], addr[50];
+    char name[25], addr[25];
     if (f == NULL) {
         printf("Unable to read file `emp.txt`\n");
         exit(1);
@@ -18,5 +18,7 @@ int main() {
         printf("Salary: %d\n", salary);
     }
     fclose(f);
+
+    print_ownership();
     return 0;
 }

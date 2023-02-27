@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h> // standard library
+#include <stdlib.h>
+#include "../../header/printOwnership.h"
 
 
 int main() {
@@ -17,4 +18,6 @@ int main() {
         printf("Address: %s\n", addr);
     }
     fclose(f);
+
+    print_ownership();
 }

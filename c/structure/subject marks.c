@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 struct student {
@@ -17,5 +18,7 @@ int main() {
         sum += s.marks[i];
     }
     printf("Total marks obtained: %d\n", sum);
+
+    print_ownership();
     return 0;
 }

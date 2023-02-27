@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../print_ownership.h"
+#include "../header/printOwnership.h"
 
 
 int main() {
@@ -13,6 +13,7 @@ int main() {
     } else {
         printf("%d is greatest\n", *q);
     }
+    
     print_ownership();
     return 0;
 }

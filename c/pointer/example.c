@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int main() {
@@ -10,5 +11,7 @@ int main() {
     printf("Value of a: %d\n", a);
     printf("Value of `p`: %u\n", ptr);
     printf("Value pointed by `p`: %d\n", *ptr);
+
+    print_ownership();
     return 0;
 }

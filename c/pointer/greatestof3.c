@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
+
 
 int main(){
     int a,b,c,*p,*q,*r;
@@ -14,5 +16,7 @@ int main(){
     }else{
         printf("%d is greatest\n",*r);
     }
+
+    print_ownership();
     return 0;
 }

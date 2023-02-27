@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../../header/printOwnership.h"
 
 
 int main() {
@@ -11,5 +12,7 @@ int main() {
         fprintf(f, "%s %d %s\n", name, roll, addr);
     }
     fclose(f);
+
+    print_ownership();
     return 0;
 }

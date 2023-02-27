@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int fibo(int n) {
@@ -15,5 +16,5 @@ int main() {
     for(int i=0; i<a; i++) {
         printf("%d\t", fibo(i));
     }
-    return 0;
+    print_ownership();
 }

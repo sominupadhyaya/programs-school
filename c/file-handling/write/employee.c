@@ -1,7 +1,5 @@
-// WAP to store emp_id, emp name and emp post of employee on emp.txt file
-
-
 #include <stdio.h>
+#include "../../header/printOwnership.h"
 
 
 int main(){
@@ -15,5 +13,7 @@ int main(){
     scanf("%d" , &id);
     fprintf(fp, "%s \t %s \t %d \t" , name, post,id);
     fclose(fp);
+
+    print_ownership();
     return 0;
 }

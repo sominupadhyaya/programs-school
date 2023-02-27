@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "../../header/printOwnership.h"
 
 int main() {
     FILE *f = NULL;
@@ -24,5 +24,7 @@ int main() {
         printf("Address: %s\n", addr);
     }
     fclose(f);
+
+    print_ownership();
     return 0;  
 }

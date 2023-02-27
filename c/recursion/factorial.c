@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int fact(int n);
@@ -9,6 +10,8 @@ int main() {
     printf("Enter a number:\n");
     scanf("%d", &n);
     printf("The factorial of %d is: %d\n", n, fact(n));
+
+    print_ownership();
     return 0;
 }
 

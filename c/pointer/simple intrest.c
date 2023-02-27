@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 int main() {
@@ -8,5 +9,7 @@ int main() {
     a = &p, b = &t, c = &r;
     float si = ((*a) * (*b) * (*c)) / 100;
     printf("Simple intrest: %.2f", si);
+
+    print_ownership();
     return 0;    
 }

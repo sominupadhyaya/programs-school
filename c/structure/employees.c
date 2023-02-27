@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
 struct employee {
@@ -19,5 +20,7 @@ int main() {
         printf("Name: %s\nId: %d\nAddress: %s\nSalary: %d\n", 
                 e[j].name, e[j].id, e[j].addr, e[j].salary);
     }
+
+    print_ownership();
     return 0;
 }

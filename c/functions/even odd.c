@@ -1,13 +1,16 @@
 #include <stdio.h>
+#include "../header/printOwnership.h"
 
 
-void even_odd(int a);
+void even_odd(int);
 
 int main() {
     int n;
     printf("Enter a number\n");
     scanf("%d", &n);
     even_odd(n);
+
+    print_ownership();
     return 0;
 }
 
