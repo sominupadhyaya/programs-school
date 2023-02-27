@@ -3,9 +3,9 @@
 *** of code in your vscode's settings.json file
     "files.associations": {
         "stdio.h": "c",
-        "print_ownership.h": "c"
+        "printOwnership.h": "c"
     }
-*** or just add the include path for the compiler to search ${workspace}/c
+*** or just add the include path for the compiler to search ${workspace}/c/header/
 */
 
 //include guard
