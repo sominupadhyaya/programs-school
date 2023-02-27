@@ -17,10 +17,10 @@ void print_ownership(){
     printf("\n**************************\n");
 
     //Your name here VVV
-    printf("Surab Parajuli\n");
+    printf("Somin Upadhyaya\n");
 
     //Roll number
-    printf("Grade: XII - \"I2\"\t Roll:43\n\n");
+    printf("Grade: XII - \"I2\"\t Roll:39\n\n");
 
     getchar();
 }

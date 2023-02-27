@@ -1,3 +1,4 @@
 /c/*/bin
 /.vscode
 /c/*/*/bin
+/c/print_ownership.h

@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "../print_ownership.h"
 
 int avg(int a, int b, int c) {
     int l = (a+b+c) / 3;
@@ -11,5 +11,6 @@ int main() {
     printf("Enter three numbers\n");
     scanf("%d%d%d", &x, &y, &z);
     printf("Average is: %d\n", avg(x, y, z));
+    print_ownership();
     return 0;
 }
