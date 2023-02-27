@@ -12,6 +12,7 @@
 #ifndef owner 
 #define owner 0
 
+
 void print_ownership(){
     //Line Separator
     printf("\n**************************\n");

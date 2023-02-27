@@ -1,2 +1,11 @@
+<<<<<<< HEAD
 .vscode/
 **/bin/
+=======
+/c/*/bin
+/.vscode
+/c/*/*/bin
+/*/print_ownership.h
+
+
+>>>>>>> add ownership
