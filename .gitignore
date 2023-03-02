@@ -5,7 +5,7 @@
 /c/*/bin
 /.vscode
 /c/*/*/bin
-/*/print_ownership.h
+/*/printownership.h
 
 
 >>>>>>> add ownership
