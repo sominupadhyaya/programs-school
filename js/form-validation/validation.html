@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+</head>
+<body>
+    <form action="new.html" method="post" onsubmit="f1()">
+        <fieldset>
+            <legend>Login Form</legend>
+        Usernam: <input type="text" id="uname"><br>
+        Password: <input type="password" id="pwd"><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+</fieldset>
+</form>
+<script>
+    function f1(){
+        let x = document.getElementById('uname').value;
+        let y = document.getElementById('pwd').value;
+    if (x===""|| y==="")
+    {
+        alert("Blank Value");
+        return false;
+    }
+    else if (y.length<4)
+    {
+        alert("Minimum password length is 4 characters");
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
+</script>
+<script src="../print-ownership.js"></script>
+</body>
+</html>
