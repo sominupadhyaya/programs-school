@@ -16,3 +16,6 @@
 
 Sincerely,  
 The Contributors
+
+## This project has been closed!
+**Thanks to everyone who contributed!** - Somin
